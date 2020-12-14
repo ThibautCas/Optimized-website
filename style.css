@@ -271,7 +271,9 @@ a:hover {
 .voffset-lg {
     margin-top: 80px;
 }
-
+.citation-author {
+    color: #575757!important;
+}
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
