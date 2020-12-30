@@ -5,7 +5,6 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    max-width: 1200px;
 }
 
 a,
@@ -33,9 +32,6 @@ a:hover {
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     position: relative;
 }
@@ -67,9 +63,6 @@ a:hover {
 .bg-tr-edge,
 .bg-br-edge,
 .bg-repeat {
-    -webkit-background-size: auto!important;
-    -moz-background-size: auto!important;
-    -o-background-size: auto!important;
     background-size: auto!important;
 }
 
@@ -748,6 +741,12 @@ h4 {
     margin-bottom: 24px;
 }
 
+@media (max-width: 767px) {
+    .portfolio-thumb {
+        max-width: 320px;
+        margin: auto;
+    }
+}
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
@@ -973,7 +972,6 @@ h4 {
     .navbar-collapse {
         padding: 0;
         overflow-x: hidden;
-        -webkit-box-shadow: none;
         box-shadow: none;
     }
     .navbar-brand img {
